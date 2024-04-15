@@ -4,7 +4,9 @@
 }
 
 body {
+  background-color: black;
   font-family: sans-serif;
+
 }
 
 .container {
@@ -22,6 +24,8 @@ body {
   height: 400px;
   background-image: url("/img/card-background.jpg");
   background-position: center;
+  border: 10px solid gray;
+  box-shadow: 20px 20px 10px whitesmoke;
   background-size: cover;
   background-repeat: no-repeat;
   filter: grayscale(0.5);
